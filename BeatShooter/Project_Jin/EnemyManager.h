@@ -59,7 +59,6 @@ private:
 	Timer*					mWaveWaringTimer;
 	Texture*				mWaveWaringTexture;
 	vector<EnemyPattern>	mPatterns;
-	BossEnemy*				mBossEnemy;
 };
 
 inline vector<Enemy*> EnemyManager::GetEnemys()

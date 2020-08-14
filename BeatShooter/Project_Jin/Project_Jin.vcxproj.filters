@@ -103,9 +103,6 @@
     <Filter Include="GameManager">
       <UniqueIdentifier>{7efe41a2-315f-4b27-b4cc-b67bf47e2f9d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Object\GameObject\Enemy\BossEnemy">
-      <UniqueIdentifier>{7b18fdcc-7936-42e5-8374-2453b58abcda}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -213,9 +210,6 @@
     <ClInclude Include="EndScene.h">
       <Filter>MainGame\Scene</Filter>
     </ClInclude>
-    <ClInclude Include="BossEnemy.h">
-      <Filter>Object\GameObject\Enemy\BossEnemy</Filter>
-    </ClInclude>
     <ClInclude Include="MotionTrailer.h">
       <Filter>FrameWork\Blur</Filter>
     </ClInclude>
@@ -316,9 +310,6 @@
     </ClCompile>
     <ClCompile Include="EndScene.cpp">
       <Filter>MainGame\Scene</Filter>
-    </ClCompile>
-    <ClCompile Include="BossEnemy.cpp">
-      <Filter>Object\GameObject\Enemy\BossEnemy</Filter>
     </ClCompile>
     <ClCompile Include="MotionTrailer.cpp">
       <Filter>FrameWork\Blur</Filter>
