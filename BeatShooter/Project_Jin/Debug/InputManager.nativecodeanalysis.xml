@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+      <FILENAME>InputManager.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>반환 값이 무시되었습니다. 'GetKeyboardState'.</DESCRIPTION>
+    <FUNCTION>InputManager::Update</FUNCTION>
+    <DECORATED>?Update@InputManager@@QAEXXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+      <FILENAME>InputManager.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>'this-&gt;keyState'에 쓰는 동안 버퍼 오버런이 발생했습니다.  쓰기 가능한 크기는 '255'바이트인데 실제로는 '256'바이트만 쓸 수 있습니다.</DESCRIPTION>
+    <FUNCTION>InputManager::Update</FUNCTION>
+    <DECORATED>?Update@InputManager@@QAEXXZ</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+        <FILENAME>InputManager.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+        <FILENAME>InputManager.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>1</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>선언</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'keyState'은(는) 'memset'(c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.23.28105\include\vcruntime_string.h:60에서 선언됨)의 출력입니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+        <FILENAME>InputManager.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+        <FILENAME>InputManager.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>선언</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'keyState'은(는) 'GetKeyboardState'(c:\program files (x86)\windows kits\10\include\10.0.18362.0\um\winuser.h:5903에서 선언됨)의 출력입니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+        <FILENAME>InputManager.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>사용법</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'this-&gt;keyState[255]'에 쓰기가 잘못됨, (쓰기 가능한 범위는 0에서 254 사이임)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

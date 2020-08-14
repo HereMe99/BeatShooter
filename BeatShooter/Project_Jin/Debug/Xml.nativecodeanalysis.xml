@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+      <FILENAME>Xml.cpp</FILENAME>
+      <LINE>1144</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>열거형 형식 'Xml::StrPair::&lt;unnamed-enum-NEEDS_ENTITY_PROCESSING&gt;'이(가) 범위가 지정되지 않았습니다. 'enum'(Enum.3) 대신 'enum class'를 사용하세요.</DESCRIPTION>
+    <FUNCTION>Xml::XMLText::ParseDeep</FUNCTION>
+    <DECORATED>?ParseDeep@XMLText@Xml@@MAEPADPADPAVStrPair@2@PAH@Z</DECORATED>
+    <FUNCLINE>1134</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+      <FILENAME>Xml.cpp</FILENAME>
+      <LINE>1380</LINE>
+      <COLUMN>3</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>열거형 형식 'Xml::XMLError'이(가) 범위가 지정되지 않았습니다. 'enum'(Enum.3) 대신 'enum class'를 사용하세요.</DESCRIPTION>
+    <FUNCTION>Xml::XMLAttribute::QueryIntValue</FUNCTION>
+    <DECORATED>?QueryIntValue@XMLAttribute@Xml@@QBE?AW4XMLError@2@PAH@Z</DECORATED>
+    <FUNCLINE>1377</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+      <FILENAME>Xml.cpp</FILENAME>
+      <LINE>1486</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>열거형 형식 'Xml::XMLElement::ElementClosingType'이(가) 범위가 지정되지 않았습니다. 'enum'(Enum.3) 대신 'enum class'를 사용하세요.</DESCRIPTION>
+    <FUNCTION>Xml::XMLElement::{ctor}</FUNCTION>
+    <DECORATED>??0XMLElement@Xml@@AAE@PAVXMLDocument@1@@Z</DECORATED>
+    <FUNCLINE>1485</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+      <FILENAME>Xml.cpp</FILENAME>
+      <LINE>1994</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>열거형 형식 'Xml::Whitespace'이(가) 범위가 지정되지 않았습니다. 'enum'(Enum.3) 대신 'enum class'를 사용하세요.</DESCRIPTION>
+    <FUNCTION>Xml::XMLDocument::{ctor}</FUNCTION>
+    <DECORATED>??0XMLDocument@Xml@@QAE@_NW4Whitespace@1@@Z</DECORATED>
+    <FUNCLINE>1994</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+      <FILENAME>Xml.cpp</FILENAME>
+      <LINE>2366</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'Xml::XMLPrinter::_entityFlag' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>Xml::XMLPrinter::{ctor}</FUNCTION>
+    <DECORATED>??0XMLPrinter@Xml@@QAE@PAU_iobuf@@_NH@Z</DECORATED>
+    <FUNCLINE>2366</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Xml::XMLPrinter::_entityFlag</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Format:
+pattenType=>
+0 : Tracking : TrackingPlayerPos
+1 : Pos : SetPos
+
+enemyType=> 
+0 : CircleEnemy
+1 : TriEnemy
+2 : RectEnemy
+3 : HexaEnemy
+
+x => SpawnPosX
+y => SpawnPosY
+t => SpawnTime
+-->
+<EnemyPattern>
+  <Pattern patternType="1">
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="0  " t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="100" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="200" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="300" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="400" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="500" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="600" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="700" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="800" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="900" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="1000" t ="4.0f"/>
+
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="0  " t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="400" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="500" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="600" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="700" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="800" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="900" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="500" y ="1000" t ="0.5f"/>
+    
+    <SpawnEnemyInfo enemyType="2" x ="600" y ="0  " t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="600" y ="100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="600" y ="200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="600" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="600" y ="400" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="600" y ="500" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="600" y ="600" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="600" y ="700" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="600" y ="800" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="600" y ="900" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="600" y ="1000" t ="3.0f"/>
+
+    <SpawnEnemyInfo enemyType="0" x ="500" y ="0  " t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="500" y ="100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="500" y ="200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="500" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="500" y ="400" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="500" y ="500" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="500" y ="600" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="500" y ="700" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="500" y ="800" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="500" y ="900" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="500" y ="1000" t ="0.5f"/>
+    
+    <SpawnEnemyInfo enemyType="1" x ="600" y ="0  " t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="600" y ="100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="600" y ="200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="600" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="600" y ="400" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="600" y ="500" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="600" y ="600" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="600" y ="700" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="600" y ="800" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="600" y ="900" t ="0.5f"/>
+    
+    <SpawnEnemyInfo enemyType="3" x ="400" y ="1000" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="400" y ="100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="400" y ="200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="400" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="400" y ="400" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="400" y ="500" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="400" y ="600" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="400" y ="700" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="400" y ="800" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="400" y ="900" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="400" y ="1000" t ="0.1f"/>
+  </Pattern>
+
+
+  <Pattern patternType="1">
+    <SpawnEnemyInfo enemyType="1" x ="1290" y ="840" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="1390" y ="940" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="1490" y ="1040" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="1590" y ="1140" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="1690" y ="1240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="1290" y ="1240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="1390" y ="1140" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="1490" y ="1040" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="1590" y ="940" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="1690" y ="840" t ="0.1f"/>
+
+    <SpawnEnemyInfo enemyType="3" x ="690" y ="840  " t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="590" y ="940" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="490" y ="1040" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="390" y ="1140" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="290" y ="1240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="690" y ="1240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="590" y ="1140" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="490" y ="1040" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="390" y ="940" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="3" x ="290" y ="840" t ="0.1f"/>
+
+    <SpawnEnemyInfo enemyType="0" x ="990" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1090" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1190" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1290" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1390" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1490" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1590" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1690" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1790" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1890" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="890" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="790" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="690" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="590" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="490" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="390" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="290" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="190" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x =" 90" y ="240" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="990 " y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1090" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1190" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1290" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1390" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1490" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1590" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1690" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1790" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1890" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="890" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="790" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="690" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="590" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="490" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="390" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="290" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="190" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x =" 90" y ="-60" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1890" y ="40" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x =" 90" y ="40" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="1890" y ="140" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x =" 90" y ="140" t ="0.1f"/>
+  </Pattern>
+
+  <Pattern patternType="0">
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="0" t ="0.1f"/>
+  </Pattern>
+
+  <Pattern patternType="0">
+    <SpawnEnemyInfo enemyType="2" x ="300" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="300" y ="200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="300" y ="100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="300" y ="0" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="300" y ="-100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="300" y ="-200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="300" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-300" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-300" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-300" y ="200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-300" y ="100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-300" y ="0" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-300" y ="-100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-300" y ="-200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-300" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="200" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="100" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="0" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-100" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-200" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="200" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="100" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="0  " y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-100" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="2" x ="-200" y ="-300" t ="1.5f"/>
+    
+    <SpawnEnemyInfo enemyType="1" x ="300" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="300" y ="200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="300" y ="100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="300" y ="0" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="300" y ="-100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="300" y ="-200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="300" y ="-300" t ="0.0f"/>
+    
+    <SpawnEnemyInfo enemyType="1" x ="-300" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="-300" y ="200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="-300" y ="100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="-300" y ="0" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="-300" y ="-100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="-300" y ="-200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="-300" y ="-300" t ="0.0f"/>
+  
+    <SpawnEnemyInfo enemyType="1" x ="200" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="100" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="-100" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="-200" y ="300" t ="0.0f"/>
+    
+    <SpawnEnemyInfo enemyType="1" x ="200" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="100" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="0  " y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="-100" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="1" x ="-200" y ="-300" t ="1.5f"/>
+    
+    <SpawnEnemyInfo enemyType="0" x ="300" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="300" y ="200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="300" y ="100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="300" y ="0" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="300" y ="-100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="300" y ="-200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="300" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-300" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-300" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-300" y ="200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-300" y ="100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-300" y ="0" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-300" y ="-100" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-300" y ="-200" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-300" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="200" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="100" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="0" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-100" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-200" y ="300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="200" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="100" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="0  " y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-100" y ="-300" t ="0.0f"/>
+    <SpawnEnemyInfo enemyType="0" x ="-200" y ="-300" t ="1.5f"/>
+
+  </Pattern>
+</EnemyPattern>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+      <FILENAME>RenderTarget.cpp</FILENAME>
+      <LINE>24</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>열거형 형식 '_D3DFORMAT'이(가) 범위가 지정되지 않았습니다. 'enum'(Enum.3) 대신 'enum class'를 사용하세요.</DESCRIPTION>
+    <FUNCTION>RenderTarget::{ctor}</FUNCTION>
+    <DECORATED>??0RenderTarget@@QAE@II@Z</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\JungJin\Desktop\Programing Project\BeatShooter1107\Project_Jin\</FILEPATH>
+      <FILENAME>RenderTarget.cpp</FILENAME>
+      <LINE>4</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>'RenderTarget::renderSurface' 변수가 초기화되지 않았습니다. 항상 멤버 변수를 초기화하세요(type.6).</DESCRIPTION>
+    <FUNCTION>RenderTarget::{ctor}</FUNCTION>
+    <DECORATED>??0RenderTarget@@QAE@II@Z</DECORATED>
+    <FUNCLINE>4</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>RenderTarget::renderSurface</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

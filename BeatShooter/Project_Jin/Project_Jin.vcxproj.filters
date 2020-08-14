@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FrameWork">
+      <UniqueIdentifier>{34b8cc78-086f-4d02-a39e-6659a727768a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{083d1d39-537d-4293-8714-2feda0457f42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\InputManager">
+      <UniqueIdentifier>{0589aebe-8f25-4ec1-878c-9393d083969e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Device">
+      <UniqueIdentifier>{c3163e16-912d-4776-b76d-8fc80e66500a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Math">
+      <UniqueIdentifier>{67147814-a4db-4808-afa8-2efc87e728fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\TimeManager">
+      <UniqueIdentifier>{66a1e38b-25a2-48e4-9819-114109130d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Texture">
+      <UniqueIdentifier>{5f44bb27-9abd-4a1b-90d7-c58e3135d4c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Camera">
+      <UniqueIdentifier>{3aa76d30-33bc-4ece-904b-35dcaa581f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Effect">
+      <UniqueIdentifier>{79a545b6-bb1d-4f7e-a438-6acb1e5f881e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\World">
+      <UniqueIdentifier>{d7b0cca0-f222-4a8b-be38-e9a1ae2a74a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Xml">
+      <UniqueIdentifier>{abf64e41-fad3-4940-8802-ee84f2149d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Timer">
+      <UniqueIdentifier>{efcd1f02-6c2f-4698-977d-70c485086e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{436f963b-e8b6-4843-8f7f-c94aaf540c73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{f3249de9-f306-436c-8cf0-a884b151f730}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Button">
+      <UniqueIdentifier>{402f0690-bae9-46b1-b159-dd8f26c3e7f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Scene">
+      <UniqueIdentifier>{123fecd8-2da8-44e3-a9d4-d764273e0e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Sharder">
+      <UniqueIdentifier>{1f8f0afd-cd37-4640-bcc5-ecb50d6817df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\RenderTarget">
+      <UniqueIdentifier>{9340ac0a-07c5-4c9c-abb0-c9002edf03bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{0d896705-1773-4a79-a334-47deeb68ad13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\GameObject">
+      <UniqueIdentifier>{a8e73f0a-a4ee-463d-a92b-4e2d1b7db58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\GameObject\Enemy">
+      <UniqueIdentifier>{2ebac490-a441-4ea6-9bf9-9b19d29cdd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\GameObject\Player">
+      <UniqueIdentifier>{18e1491c-2faa-4d33-8466-a70239eb2a01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utillyty">
+      <UniqueIdentifier>{57cc251c-e259-47ae-8238-27e538e3838d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Vertex">
+      <UniqueIdentifier>{dfe2d082-cf92-4a79-9058-cd174b32aed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Blur">
+      <UniqueIdentifier>{a3f5cf3c-db88-4c18-aede-2be9f0fc4026}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\GameObject\Bullet">
+      <UniqueIdentifier>{75c50999-fd49-42cd-acf3-93305f67d0f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\SoundManager">
+      <UniqueIdentifier>{eeff5f5d-6986-4459-99c3-b0ab4da3bcfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{33ce9e0d-8369-4266-b55c-949af19bceec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FrameWork\Animator">
+      <UniqueIdentifier>{bdd4c91c-6191-4aa0-a96c-7179e1aca8c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{7efe41a2-315f-4b27-b4cc-b67bf47e2f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\GameObject\Enemy\BossEnemy">
+      <UniqueIdentifier>{7b18fdcc-7936-42e5-8374-2453b58abcda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Project_Jin.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>FrameWork\InputManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>FrameWork\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>FrameWork\TimeManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>FrameWork\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>FrameWork\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>FrameWork\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>FrameWork\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>FrameWork\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>FrameWork\World</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml.h">
+      <Filter>FrameWork\Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>FrameWork\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlLoad.h">
+      <Filter>FrameWork\Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>UI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>FrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>FrameWork\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>FrameWork\Sharder</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderTarget.h">
+      <Filter>FrameWork\RenderTarget</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Utillyty</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Object\GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>FrameWork\Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Object\GameObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Object\GameObject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>FrameWork\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Object\GameObject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="EndScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BossEnemy.h">
+      <Filter>Object\GameObject\Enemy\BossEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionTrailer.h">
+      <Filter>FrameWork\Blur</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>FrameWork\Device</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>FrameWork\InputManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>FrameWork\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>FrameWork\TimeManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>FrameWork\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>FrameWork\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>FrameWork\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>FrameWork\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>FrameWork\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Project_Jin.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>FrameWork\World</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml.cpp">
+      <Filter>FrameWork\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>FrameWork\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlLoad.cpp">
+      <Filter>FrameWork\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>UI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>FrameWork\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>FrameWork\Sharder</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderTarget.cpp">
+      <Filter>FrameWork\RenderTarget</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Utillyty</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Object\GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Object\GameObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Object\GameObject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>FrameWork\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Object\GameObject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="EndScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BossEnemy.cpp">
+      <Filter>Object\GameObject\Enemy\BossEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionTrailer.cpp">
+      <Filter>FrameWork\Blur</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>FrameWork\Device</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="CharacterShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="BlurShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="BoundShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="LightShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="MultiShader.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Neon.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="DeleteColor.hlsl">
+      <Filter>Shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor1.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Project_Jin.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Project_Jin.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="res\enemy_pattern.xml">
+      <Filter>리소스 파일</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
